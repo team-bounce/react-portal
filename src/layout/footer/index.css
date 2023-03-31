@@ -1,0 +1,19 @@
+.layout-footer {
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  margin: 0;
+  padding: 2px;
+  background-color: rgba(230, 230, 230, 0.8);
+  color: black;
+  font-family: "Abel", "Roboto", sans-serif; 
+  font-size: smaller;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  cursor: pointer;
+}

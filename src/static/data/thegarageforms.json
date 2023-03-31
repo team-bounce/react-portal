@@ -1,0 +1,106 @@
+{
+  "forms": [
+    {
+      "formid": "0001",
+      "formname": "I'd like to book a Service",
+      "formdescription": "If you would like to book a Full or Interim Service, for your car or van, please click here.",
+      "formelements": [
+        {
+          "type": "InputText",
+          "label": "Name",
+          "placeholder": "Name",
+          "name": "inpName"
+        },
+        {
+          "type": "InputEmail",
+          "label": "Email",
+          "placeholder": "Email",
+          "name": "inpEmail"
+        },
+        {
+          "type": "InputText",
+          "label": "Vehicle Registration",
+          "placeholder": "Vehicle Registration",
+          "name": "inpVehicleRegistration"
+        },
+        {
+          "type": "InputSelect",
+          "label": "Vehicle Type",
+          "placeholder": "Vehicle Type",
+          "name": "inpVehicleType",
+          "options": ["Car", "Van", "Bus"]
+        },
+        {
+          "type": "Calendar",
+          "label": "Requested Date",
+          "placeholder": "Date",
+          "name": "inpRequestedDate"
+        }
+      ],
+      "formrules": {
+        "inpName": "required",
+        "inpEmail": "required|email",
+        "inpVehicleRegistration": "required",
+        "inpVehicleType": ["required", { "in": ["Car", "Van", "Bus"] }],
+        "inpDate": "required|date"
+      }
+    },
+    {
+      "formid": "0002",
+      "formname": "I'd like to check a Service I have already booked",
+      "formdescription": "If you would like to check the details of a Full or Interim Service, that you have already booked, please click here.",
+      "formelements": [
+        {
+          "type": "InputText",
+          "label": "Name",
+          "placeholder": "Name",
+          "name": "inpName"
+        }
+      ],
+      "formrules": {
+        "inpName": "size:3"
+      }
+    },
+    {
+      "formid": "0003",
+      "formname": "I'd like to book an M.O.T",
+      "formdescription": "If you would like to book an MOT, please click here.",
+      "formelements": [
+        {
+          "type": "InputText",
+          "label": "Name",
+          "placeholder": "Please Enter your Name",
+          "name": "inpName"
+        },
+        {
+          "type": "InputNumber",
+          "label": "Amount",
+          "placeholder": "Please enter the Payment Amount",
+          "name": "inpAmount"
+        },
+        {
+          "type": "InputTextarea",
+          "label": "Notes",
+          "placeholder": "Please enter your Notes here...",
+          "name": "inpNotes"
+        }
+      ],
+      "formrules": {
+        "inpName": "size:3"
+      }
+    },
+    {
+      "formid": "0004",
+      "formname": "I'd like to check an existing MOT that I have already booked",
+      "formdescription": "If you would like to check the details of an MOT, that you have already booked, please click here.",
+      "formelements": [
+        {
+          "type": "InputNumber",
+          "label": "Amount",
+          "placeholder": "Amount",
+          "name": "inpName"
+        }
+      ]
+    }
+  ]
+}

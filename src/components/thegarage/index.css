@@ -1,0 +1,92 @@
+
+
+.thegarage {
+  background-image: url('./garage.jpg');
+  background-size: cover;
+  height: auto;
+  min-height: 1200px;
+  margin: 0;
+  padding: 0;
+}
+.thegarage .container-fluid {
+  height: auto;
+  min-height: 1200px;
+  padding: 20px;
+  background-color: rgba(255,255,255,0.8);
+}
+
+.thegarage .form-list {
+  padding: 1rem;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 4px;
+}
+.thegarage .form-render {
+  padding: 1rem;
+  background-color: rgba(255,255,255,1);
+  border-radius: 4px;
+}
+.thegarage .form-content {
+  padding: 1rem;
+  color: gray;
+  background-color: rgba(255,255,255,0.8);
+}
+
+.thegarage .show {
+  display: block;
+}
+.thegarage .hide {
+  display: none;
+}
+.thegarage .cardtitle {
+  margin: 4px;
+  font-weight: 700;
+}
+
+.thegarage .form-item {
+  display: flex;
+  align-items: center;
+  padding: .5rem;
+  width: 100%;
+  background-color: rgba(255,255,255,0.8);
+}
+.thegarage .form-item:hover {
+  background-color: aliceblue;
+  cursor: pointer;
+}
+.thegarage .form-item .form-item-detail {
+  flex: 1 1 0;
+  cursor: pointer;
+}
+.thegarage .form-item .form-action {
+  display: flex;
+  flex-direction: column;
+}
+
+.thegarage .form-item .form-item-detail .form-id {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.thegarage .form-item .form-item-detail .form-name {
+  font-size: x-large;
+  font-weight: 700;
+}
+.thegarage .form-item .form-item-detail .form-description {
+  font-size: small;
+  margin: 0 0 1rem 0;
+}
+
+.thegarage p {
+  margin-bottom: 0.5rem;
+  color: gray;
+}
+.thegarage .p-inputtext,
+.thegarage .p-inputtextarea {
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+.thegarage .p-inputnumber {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}

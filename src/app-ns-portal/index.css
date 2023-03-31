@@ -1,0 +1,18 @@
+.ns-portal {
+  position: absolute;
+  top: 64px;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  min-height: 1200px;
+  /* background-color: rgba(230, 230, 230, 0.8); */
+  color: black;
+  font-family: "Abel", "Roboto", sans-serif; 
+}
+
+.ns-portal .accordion-body {
+  /* background-color: rgba(230, 230, 230, 0.8); */
+  background-color: rgba(240, 240, 240, 1);
+}

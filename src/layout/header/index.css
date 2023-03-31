@@ -1,0 +1,34 @@
+.layout-header {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 64px;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(230, 230, 230, 0.8);
+  color: black;
+  font-family: 'Abel', 'Roboto', sans-serif;
+}
+
+.layout-header .nav {
+  padding: 0;
+}
+
+.layout-header .title {
+  font-size: x-large;
+  font-weight: bold;
+}
+/*
+.layout-header .databox {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 4px;
+}
+*/
+.layout-header .databox h6,
+.layout-header .databox small {
+  margin: 2px;
+}
